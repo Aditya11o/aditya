@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f329fe5fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><b><a href="#header">Home</a></li></b>
+                    <li><b><a href="#about">About</a></li></b>
+                    <li><b><a href="#services">Services</a></li></b>
+                    <li><b><a href="#portfolio">Portfolio</a></li></b>
+                    <li><b><a href="#contact">Contact</a></li></b>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>           
+            <div class="header-text">
+                <h2 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey, I'm <span>Aditya</span></h2>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900"><h1>I'm a <span class="typewriter-text"></span><label>|</label></div></h1> 
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Aditya Halder, a BCA student, expert in Python, PHP, HTML,and <br>Cyber Security, with 7+ years of freelancing in content writing<br> and web design. He focuses on data analysis and modeling.</p>
+            </div>           
+        </div>
+    </div>
+
+<!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am a passionate second-year Bachelor of Computer Applications (BCA) student with a focus on Data Science, specializing in advanced Python, PHP & MySQL, and Cyber Security. My expertise lies in analyzing, manipulating, and visualizing data to uncover insights and drive impactful solutions to real-world challenges.
+
+                    With a strong foundation in programming and a growing interest in data-driven decision-making, I am building my career as a Data Scientist. I am always eager to learn and apply cutting-edge technologies to innovate and solve complex problems.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Science</span><br>Data analysis, visualization, predictive modeling using Python, NumPy, and Pandas.</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript, PHP & MySQL.</li>
+                            <li><span>Cyber Security</span><br>Knowledge of tools and techniques like SQL injection, phishing, and ransomware.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Freelancer</span><br>7+ years of experience in content writing, web design, and file conversion.</li>
+                            <!-- <li><span> Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BCA Student</span><br>Second-year, third semester, focusing on Data Science and programming.</li>
+                            <!-- <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App </span><br>Building Android/iOS apps</li> -->
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Data Analysis</h2>
+                <p>I provide in-depth data analysis, using tools like Python, NumPy, and Pandas to uncover insights and make data-driven decisions.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-blogger-b"></i>
+                <h2>Food Blogging</h2>
+                <p>I run a personal food blog on Blogger.com, sharing recipes, tips, and culinary experiences with my audience.</p>
+                <a href="https://thefooddiaries1.blogspot.com/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file"></i>
+                <h2>Content Writing & File Conversion</h2>
+                <p>I offer professional content writing services along with efficient file conversion, ensuring high-quality output for diverse projects.</p>
+                <a href="https://www.fiverr.com/aditya_h1/convert-pdf-to-word">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- portfolio -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.webp">
+                <div class="layer">
+                    <h3>Data Analysis and Visualization</h3>
+                    <p>Utilized Python libraries such as Pandas and Matplotlib to analyze datasets, uncover trends, and create compelling visualizations that aid in decision-making.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.webp">
+                <div class="layer">
+                    <h3>Predictive Modeling</h3>
+                    <p>Developed predictive models using machine learning algorithms to forecast outcomes, improving efficiency in various projects. Implemented models with scikit-learn and evaluated their performance through cross-validation techniques.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.webp">
+                <div class="layer">
+                    <h3>Data Cleaning and Preparation</h3>
+                    <p>Executed data cleaning processes to ensure high-quality datasets, addressing issues like missing values and outliers, which enhanced the accuracy of analyses and models.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>halderaditya632@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-9748912848</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100094679892912"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/AdityaH20513398"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/halderaditya632/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-halder-1743a4309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="copyright">
+        <marquee behaviour="scroll" direction="left">***This page is made by Aditya | Powered by HTML,CSS & JavaScript | Copyright 2024 | All Rights Reserved***</marquee>
+    </div> -->
+</div>
+<script src="script.js"></script>
+</body>
+</html>
