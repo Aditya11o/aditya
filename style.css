@@ -411,3 +411,7 @@ marquee{
 }
 
 
+.header-text p{
+    max-width: 600px;
+    text-align: left;    
+}
