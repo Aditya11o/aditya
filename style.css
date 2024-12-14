@@ -252,6 +252,19 @@ nav ul li a:hover::after{
 .btn:hover{
     background: #ff004f;
 }
+.sub-title {
+    display: inline-flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .coming-soon {
+    margin-left: 10px; /* Adjust this space as needed */
+    font-style: italic;
+    color: #f4a261; /* You can customize the color */
+  }
+  
 
 /* contact */
 .contact-left{
