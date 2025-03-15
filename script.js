@@ -46,7 +46,7 @@ function closemenu(){
 
 // Typewriter Effect
 const texts = [
-    "Data Scientist",
+    "Web Developer",
     "Freelancer"
     
 ]
